@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "allowJs": true,
+        "target": "ESNext",
+        "preserveConstEnums": true,
+        "outFile": "./built/tsc.js",
+        "sourceMap": true
+    },
+    "include": ["*.ts", "./**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
